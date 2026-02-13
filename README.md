@@ -34,7 +34,7 @@ Each set comes in two forms:
 $ x in ints quad y in reals_plus $
 
 // As variables — for use in attachments and expressions
-$ f: N -> R quad A subset R_plus_star $
+$ f: #N -> #R quad A subset #R_plus_star $
 ```
 
 ### Operators
