@@ -1,6 +1,6 @@
 # axiom
 
-A Typst math utility library providing commonly used operators, sets, and notation shortcuts.
+Math utility library providing commonly used operators, sets, and notation shortcuts.
 
 ## Usage
 
