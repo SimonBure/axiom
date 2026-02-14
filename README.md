@@ -18,23 +18,15 @@ $ argmax_(theta) f(theta) $
 
 | Name | Renders | Variants |
 |------|---------|----------|
-| `ints` | N | `ints-star` |
-| `reals` | R | `reals-plus`, `reals-minus`, `reals-star`, `reals-plus-star`, `reals-minus-star` |
-| `integers` | Z | `integers-star` |
-| `complexes` | C | `complexes-star` |
-| `rationals` | Q | `rationals-star` |
-| `field` | K | `field-star` |
-
-Each set comes in two forms:
-- **Operator** (`ints`, `reals`, ...): defined via `math.op`, provides correct spacing when used as a standalone symbol in equations.
-- **Variable** (`N`, `R`, ...): the raw blackboard-bold content, useful inside attachments or custom expressions.
+| `NN` | N | `NN-star` |
+| `RR` | R | `RR-plus`, `RR-minus`, `RR-star`, `RR-plus-star`, `RR-minus-star` |
+| `ZZ` | Z | `ZZ-star` |
+| `CC` | C | `CC-star` |
+| `QQ` | Q | `QQ-star` |
+| `KK` | K | `KK-star` |
 
 ```typst
-// As operators — proper spacing in equations
-$ x in ints quad y in reals-plus $
-
-// As variables — for use in attachments and expressions
-$ f: #N -> #R quad A subset #R-plus-star $
+$ x in NN quad f: RR -> RR-plus $
 ```
 
 ### Operators
@@ -96,3 +88,7 @@ $ f: #N -> #R quad A subset #R-plus-star $
 | `fr` | fr |
 | `diam` | diam |
 | `conv` | conv |
+
+## Contributing
+
+Contributions are welcome!
