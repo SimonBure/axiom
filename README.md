@@ -18,12 +18,12 @@ $ argmax_(theta) f(theta) $
 
 | Name | Renders | Variants |
 |------|---------|----------|
-| `ints` | N | `ints_star` |
-| `reals` | R | `reals_plus`, `reals_minus`, `reals_star`, `reals_plus_star`, `reals_minus_star` |
-| `integers` | Z | `integers_star` |
-| `complexes` | C | `complexes_star` |
-| `rationals` | Q | `rationals_star` |
-| `field` | K | `field_star` |
+| `ints` | N | `ints-star` |
+| `reals` | R | `reals-plus`, `reals-minus`, `reals-star`, `reals-plus-star`, `reals-minus-star` |
+| `integers` | Z | `integers-star` |
+| `complexes` | C | `complexes-star` |
+| `rationals` | Q | `rationals-star` |
+| `field` | K | `field-star` |
 
 Each set comes in two forms:
 - **Operator** (`ints`, `reals`, ...): defined via `math.op`, provides correct spacing when used as a standalone symbol in equations.
@@ -31,10 +31,10 @@ Each set comes in two forms:
 
 ```typst
 // As operators — proper spacing in equations
-$ x in ints quad y in reals_plus $
+$ x in ints quad y in reals-plus $
 
 // As variables — for use in attachments and expressions
-$ f: #N -> #R quad A subset #R_plus_star $
+$ f: #N -> #R quad A subset #R-plus-star $
 ```
 
 ### Operators
